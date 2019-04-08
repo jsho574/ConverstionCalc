@@ -71,6 +71,9 @@
                                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
                                                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         <state key="normal" title="Converter"/>
+                                                        <connections>
+                                                            <action selector="Convert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BfG-VW-Tld"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -214,6 +217,10 @@
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="InputDisplay" destination="veO-6H-Wja" id="J6a-u2-5j7"/>
+                        <outlet property="OutputDisplay" destination="y2a-5a-Sq0" id="O3l-hH-I2y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

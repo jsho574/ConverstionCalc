@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3C41FDE9225BF1CA00B0C89B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C41FDE8225BF1CA00B0C89B /* AppDelegate.swift */; };
-		3C41FDEB225BF1CA00B0C89B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C41FDEA225BF1CA00B0C89B /* ViewController.swift */; };
 		3C41FDEE225BF1CA00B0C89B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C41FDEC225BF1CA00B0C89B /* Main.storyboard */; };
 		3C41FDF0225BF1CB00B0C89B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C41FDEF225BF1CB00B0C89B /* Assets.xcassets */; };
 		3C41FDF3225BF1CB00B0C89B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C41FDF1225BF1CB00B0C89B /* LaunchScreen.storyboard */; };
 		3C41FDFE225BF1CB00B0C89B /* ConversionCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C41FDFD225BF1CB00B0C89B /* ConversionCalculatorTests.swift */; };
 		3C41FE09225BF1CB00B0C89B /* ConversionCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C41FE08225BF1CB00B0C89B /* ConversionCalculatorUITests.swift */; };
+		3C41FE19225BF38400B0C89B /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C41FE18225BF38400B0C89B /* ConverterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		3C41FDE5225BF1CA00B0C89B /* ConversionCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConversionCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C41FDE8225BF1CA00B0C89B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C41FDEA225BF1CA00B0C89B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C41FDED225BF1CA00B0C89B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C41FDEF225BF1CB00B0C89B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C41FDF2225BF1CB00B0C89B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		3C41FE04225BF1CB00B0C89B /* ConversionCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConversionCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C41FE08225BF1CB00B0C89B /* ConversionCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionCalculatorUITests.swift; sourceTree = "<group>"; };
 		3C41FE0A225BF1CB00B0C89B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C41FE18225BF38400B0C89B /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				3C41FDE8225BF1CA00B0C89B /* AppDelegate.swift */,
-				3C41FDEA225BF1CA00B0C89B /* ViewController.swift */,
 				3C41FDEC225BF1CA00B0C89B /* Main.storyboard */,
 				3C41FDEF225BF1CB00B0C89B /* Assets.xcassets */,
 				3C41FDF1225BF1CB00B0C89B /* LaunchScreen.storyboard */,
 				3C41FDF4225BF1CB00B0C89B /* Info.plist */,
+				3C41FE18225BF38400B0C89B /* ConverterViewController.swift */,
 			);
 			path = ConversionCalculator;
 			sourceTree = "<group>";
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C41FDEB225BF1CA00B0C89B /* ViewController.swift in Sources */,
 				3C41FDE9225BF1CA00B0C89B /* AppDelegate.swift in Sources */,
+				3C41FE19225BF38400B0C89B /* ConverterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
